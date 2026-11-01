@@ -1,0 +1,7 @@
+name = "medlingo-ai-proxy"
+main = "index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+[vars]
+CLAUDE_MODEL = "claude-sonnet-5-5"
+# Secrets (set with `wrangler secret put` or in the dashboard): ANTHROPIC_API_KEY, PROXY_SECRET

@@ -1,0 +1,8 @@
+{
+  "name": "medlingo-ai-proxy",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "dependencies": { "@anthropic-ai/sdk": "0.135.0" },
+  "devDependencies": { "esbuild": "0.25.0" }
+}
